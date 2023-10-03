@@ -1,0 +1,14 @@
+# System files
+.DS_Store
+
+# Allure results
+allure-results/*.json
+
+# Logs
+logs/*.log
+
+# Target directory
+target/
+
+# Compiled classes
+**/*.class
