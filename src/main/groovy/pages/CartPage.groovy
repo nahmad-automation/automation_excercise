@@ -19,9 +19,9 @@ class CartPage {
 
     // Method to click on the "View Cart" button
     void viewCart() {
-        WebElement viewCartButton = driver.findElement(By.xpath("//a[@href='/viewcart.cfm' and contains(@class, 'btn-primary')]"))
+        logger.info("clicking view cart button");
+        WebElement viewCartButton = driver.findElement(By.xpath('//a[@href="/viewcart.cfm"]'))
         viewCartButton.click()
-        logger.info("clicked view cart button");
     }
 
     // Method to empty the cart
